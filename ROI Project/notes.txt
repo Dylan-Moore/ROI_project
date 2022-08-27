@@ -1,0 +1,47 @@
+Four Square method
+Income:
+    Rental:
+    ex. purchase price = $200,000 --- Duplex
+        rental income = 2,000 per month
+        total monthly income: 2,000 [per month]
+    
+        Laundry:
+        Storage:
+        Misc:
+    total income = 2,000 per month
+Expenses:
+    Common Expenses:
+        Taxes:  150/month
+        Insurance:  100/month
+        Utilities:  0/month
+            electric
+            water
+            sewer
+            garbage
+            gas
+        HOA(Homeowners Association): 0/month
+        Lawn/Snow:  0/month
+        Vacancy:    100/month
+        Repairs:    100/month
+        Capital Expenditures (saving for big expenses): 100/month
+        Property Management:    200/month 
+        Mortgage:   (can use a mortgage calculator) 860/month
+    
+    total monthly expenses: 1610
+
+Cash Flow:
+        Income - Expenses
+        2,000 - 1,610 =390
+    Total Monthly Cash Flow = 390
+
+Cash-on-Cash-ROI:
+        Down Payment: 40,000
+        Closing Costs: 3,000
+        Repair Money/Rehab budget: 7,000
+        Misc/Other: 0
+    Total Investment: $50,000
+    Annual-Cash-Flow = 4,680
+    ACF / Total Investment: 4,680 / 50,000
+    ROI = 9.36%
+
+
