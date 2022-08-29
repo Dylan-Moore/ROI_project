@@ -21,10 +21,12 @@ class ROI_investment():
             elif income_question == "q":
                 print(self.income)
                 self.find_expenses()
+            else:
+                print("Please input a valid response.")
                 
     def find_expenses(self, taxes = 0, insurance = 0, utilities = 0, Home_A = 0, vacancy = 0, repairs = 0, mortgage = 0):
         while True:
-            expense_question = input("What are your monthly expenses? [1]Taxes \n [2]Insurance \n [3]Utilities \n [4]HOA \n [5]Vacancy \n [6]repairs \n [7]mortgage ")
+            expense_question = input("What are your monthly expenses? [1]Taxes \n [2]Insurance \n [3]Utilities \n [4]HOA \n [5]Vacancy \n [6]repairs \n [7]mortgage \n [q] to quit")
             if expense_question == "1":
                 taxes = input("How much are your monthly taxes? ")
                 self.expense = int(taxes)
@@ -49,6 +51,8 @@ class ROI_investment():
             elif expense_question == "q":
                 print(self.expense)
                 self.cash_flw()
+            else:
+                print("Please input a valid response.")
     def cash_flw(self):
         self.cash_flow = self.income - self.expense
         print(self.cash_flow)
@@ -87,7 +91,7 @@ def run():
     property_q = input("Do you have a property you would like to get the ROI on? ")
     if property_q == "yes":
         prop.find_income()
-    elif property_q == "2":
+    elif property_q == "no":
         print("Have a nice day!")
         run()
     #     prop.find_expenses()
